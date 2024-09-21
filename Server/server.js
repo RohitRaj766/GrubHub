@@ -32,4 +32,5 @@ app.get("/items", async (req, res) => {
 });
 
 const port = process.env.PORT;
+// const port = 8000; //8000 port is set in client for api hit
 app.listen(port, () => console.log(`Server started at port ${port}`));
